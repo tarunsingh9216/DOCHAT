@@ -28,11 +28,8 @@ from transformers import (
     pipeline
 )
 
-# load_dotenv()   
-# pinecone_key = os.getenv("PINECONE_API_KEY")
-
-os.environ['PINECONE_API_KEY'] =  "pcsk_5mFjGM_2TtfxjukZnwYLmAzRyqGQGzZ78YGFcEYMKB2qs6DdmXEues7ELMN5Ui1jXGGM3s"
-
+load_dotenv()   
+pinecone_key = os.getenv("PINECONE_API_KEY")
 
 
 def main():
