@@ -6,10 +6,10 @@ streamlit
 faiss-cpu
 pypdf
 langchain_community
-accelerate-1.6.0
-huggingface-hub-0.30.1
-tokenizers-0.21.1
-transformers-4.50.3
-trl-0.16.0
-bitsandbytes==0.40.2
-peft==0.4.0
+accelerate
+huggingface-hub
+tokenizers
+transformers
+trl
+bitsandbytes
+peft

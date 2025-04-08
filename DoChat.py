@@ -40,7 +40,7 @@ def main():
     TEXT = ""
 
     st.set_page_config("DOCHAT")
-    st.header("Chat With PDF using AWS Bedrock💁")
+    st.header("Chat With PDF using LLM💁")
 
     uploded_file = st.file_uploader("Uplode a PDF file", type="pdf")
 
